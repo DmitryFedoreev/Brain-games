@@ -9,3 +9,6 @@
 #### Video demonstration of the game "Calculator"
 [![asciicast](https://asciinema.org/a/FR4oaejyPNn3wNdvIo5K5oEPi.svg)](https://asciinema.org/a/FR4oaejyPNn3wNdvIo5K5oEPi)
 
+### Video demonstration of the game "Greatest common divisor"
+[![asciicast](https://asciinema.org/a/qddrQkGwSGU4vSVVEfIQSwg0C.svg)](https://asciinema.org/a/qddrQkGwSGU4vSVVEfIQSwg0C)
+
