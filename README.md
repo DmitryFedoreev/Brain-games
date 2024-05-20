@@ -6,3 +6,6 @@
 #### Video demonstration of the game “Parity Check”
 [![asciicast](https://asciinema.org/a/cLf3y7g8xYzLJeam8KAISlEBk.svg)](https://asciinema.org/a/cLf3y7g8xYzLJeam8KAISlEBk)
 
+#### Video demonstration of the game "Calculator"
+[![asciicast](https://asciinema.org/a/FR4oaejyPNn3wNdvIo5K5oEPi.svg)](https://asciinema.org/a/FR4oaejyPNn3wNdvIo5K5oEPi)
+
