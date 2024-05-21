@@ -1,5 +1,4 @@
 import prompt
-import prompt
 
 
 def hello():
