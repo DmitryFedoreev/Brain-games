@@ -9,7 +9,7 @@ This is a set of five console games based on popular mobile applications for bra
 
 ### Install
 ```
-git clone https://github.com/rosoporto/python-project-49.git
+git clone https://github.com/DmitryFedoreev/python-project-49.git
 cd python-project-49
 make package-install
 ```
