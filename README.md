@@ -12,3 +12,5 @@
 #### Video demonstration of the game "Greatest common divisor"
 [![asciicast](https://asciinema.org/a/qddrQkGwSGU4vSVVEfIQSwg0C.svg)](https://asciinema.org/a/qddrQkGwSGU4vSVVEfIQSwg0C)
 
+#### Video demonstration of the game "Progression"
+[![asciicast](https://asciinema.org/a/sq3TiQkaGBVpTT8Cazq68vYdE.svg)](https://asciinema.org/a/sq3TiQkaGBVpTT8Cazq68vYdE)
