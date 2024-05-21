@@ -17,11 +17,10 @@ def generate_round():
     progression[hidden_index] = '..'
     question = ' '.join(map(str, progression))
 
-    return question, correct_answer
+    return question, str(correct_answer)
 
 
 game = {
     'description': DESCRIPTION,
     'generate_round': generate_round,
 }
-
