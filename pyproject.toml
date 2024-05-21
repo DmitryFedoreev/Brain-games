@@ -1,11 +1,21 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Project Brain Games"
 authors = ["DmitryFedoreev <fedoreev.doc@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/DmitryFedoreev/python-project-49.git"
 packages = [
   { include = "brain_games" },
+]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Education",
+    "License :: Free For Educational Use",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Education",
 ]
 
 
