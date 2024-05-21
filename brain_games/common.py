@@ -1,4 +1,5 @@
 import prompt
+import prompt
 
 
 def hello():
@@ -12,8 +13,9 @@ def play_game(game):
     name = hello()
     print(game['description'])
     count = 0
+    rounds_to_win = 3
 
-    while count < 3:
+    while count < rounds_to_win:
         question, correct_answer = game['generate_round']()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
@@ -24,9 +26,6 @@ def play_game(game):
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
-            break
+            return
 
-        if count == 3:
-            print(f'Congratulations, {name}!')
-
-#ref
+    print(f'Congratulations, {name}!')

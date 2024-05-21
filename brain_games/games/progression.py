@@ -1,5 +1,6 @@
 import random
 
+
 DESCRIPTION = 'What number is missing in the progression?'
 
 
@@ -13,13 +14,14 @@ def generate_round():
     hidden_index = random.randint(0, length - 1)
     correct_answer = progression[hidden_index]
 
-    hidden_progression = progression[:]
-    hidden_progression[hidden_index] = ".."
+    progression[hidden_index] = '..'
+    question = ' '.join(map(str, progression))
 
-    return hidden_progression, str(correct_answer)
+    return question, correct_answer
 
 
 game = {
     'description': DESCRIPTION,
     'generate_round': generate_round,
 }
+
