@@ -1,6 +1,7 @@
 ### Hexlet tests and linter status/Maintainability Badge:
 [![Actions Status](https://github.com/DmitryFedoreev/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/DmitryFedoreev/python-project-49/actions)
 <a href="https://codeclimate.com/github/DmitryFedoreev/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/6c77d38fd5d0fc1909a1/maintainability" /></a>
+[![Test Coverage](https://api.codeclimate.com/v1/badges/6c77d38fd5d0fc1909a1/test_coverage)](https://codeclimate.com/github/DmitryFedoreev/python-project-49/test_coverage)
 
 ## Project "Brain games"
 This is a set of five console games based on popular mobile applications for brain training. Each game asks questions that must be answered correctly. After three game errors, the game is considered completed. Wrong answers end the game
