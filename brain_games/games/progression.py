@@ -16,7 +16,7 @@ def generate_round():
     hidden_progression = progression[:]
     hidden_progression[hidden_index] = ".."
 
-    return hidden_progression, correct_answer
+    return hidden_progression, str(correct_answer)
 
 
 game = {
