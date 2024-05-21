@@ -14,3 +14,6 @@
 
 #### Video demonstration of the game "Progression"
 [![asciicast](https://asciinema.org/a/sq3TiQkaGBVpTT8Cazq68vYdE.svg)](https://asciinema.org/a/sq3TiQkaGBVpTT8Cazq68vYdE)
+
+#### Video demonstration of the game "Prime"
+[![asciicast](https://asciinema.org/a/kbjX8ZzLSs08NkbYhDGjuyUDR.svg)](https://asciinema.org/a/kbjX8ZzLSs08NkbYhDGjuyUDR)
