@@ -4,17 +4,14 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(n):
-    if n <= 1:
+    if n <= 1 or (n % 2 == 0 and n != 2):
         return False
     if n == 2:
         return True
-    if n % 2 == 0:
-        return False
-    d = 3
-    while d * d <= n:
+
+    for d in range(3, int(n**0.5) + 1, 2):
         if n % d == 0:
             return False
-        d += 2
     return True
 
 
