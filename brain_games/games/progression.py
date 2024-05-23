@@ -2,12 +2,18 @@ import random
 
 
 DESCRIPTION = 'What number is missing in the progression?'
+MIN_LENGTH = 5
+MAX_LENGTH = 10
+MIN_START = 1
+MAX_START = 10
+MIN_STEP = 1
+MAX_STEP = 5
 
 
 def generate_round():
-    length = random.randint(5, 10)
-    start = random.randint(1, 10)
-    step = random.randint(1, 5)
+    length = random.randint(MIN_LENGTH, MAX_LENGTH)
+    start = random.randint(MIN_START, MAX_START)
+    step = random.randint(MIN_STEP, MAX_STEP)
 
     progression = [start + step * i for i in range(length)]
 

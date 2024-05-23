@@ -1,23 +1,26 @@
 import random
 
 DESCRIPTION = 'What is the result of the expression?'
+MIN_NUM = 1
+MAX_NUM = 100
+OPERATOR = ('+', '-', '*')
 
 
 def generate_round():
-    arithmetic = random.choice(['+', '-', '*'])
-    random_num1 = random.randint(1, 100)
-    random_num2 = random.randint(1, 100)
+    operator = random.choice(OPERATOR)
+    random_num1 = random.randint(MIN_NUM, MAX_NUM)
+    random_num2 = random.randint(MIN_NUM, MAX_NUM)
 
-    if arithmetic == '+':
+    if operator == '+':
         correct_result = random_num1 + random_num2
 
-    elif arithmetic == '-':
+    elif operator == '-':
         correct_result = random_num1 - random_num2
 
-    elif arithmetic == '*':
+    elif operator == '*':
         correct_result = random_num1 * random_num2
 
-    question = f'{random_num1} {arithmetic} {random_num2}'
+    question = f'{random_num1} {operator} {random_num2}'
     return question, correct_result
 
 
